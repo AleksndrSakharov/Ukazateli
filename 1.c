@@ -4,5 +4,6 @@
 int main(){
     int size = 10;
     long long* array = (long long*)malloc(size * sizeof(long long));
+    free(array);
     return 0;
 }
